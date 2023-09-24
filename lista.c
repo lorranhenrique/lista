@@ -123,7 +123,7 @@ No *Remover(No *atual,int id){
 
 int main(){
 
-    setlocale(LC_ALL,"portuguese");
+    setlocale(LC_ALL,"");
     No *lista=NULL;//cria lista vazia
     No *selecionado=(No*)malloc(sizeof(No));
     No dados;
